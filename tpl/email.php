@@ -69,19 +69,19 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = 'lisboa22@gmail.com';
+$mail->Username = 'email';
 
 //Password to use for SMTP authentication
-$mail->Password = 'Lisbo@22021974';
+$mail->Password = 'Senha';
 
 //Set who the message is to be sent from
-$mail->setFrom('lisboa22@gmail.com', 'Robson Lisboa');
+$mail->setFrom('email Remetente', 'Nome Remetente');
 
 //Set an alternative reply-to address
 //$mail->addReplyTo('replyto@example.com', 'First Last');
 
 //Set who the message is to be sent to
-$mail->addAddress('lisboainfo@lisboainfo.com.br', 'Lisbo@Info');
+$mail->addAddress('Email Destinatatio', 'Nome Destinatario');
 
 //Set the subject line
 $mail->Subject = 'Teste PHPMailer Curso';
